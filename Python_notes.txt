@@ -1,0 +1,140 @@
+
+Python
+
+Documents :
+http://docs.anaconda.com/anaconda/user-guide/getting-started/
+https://python.org
+https://pypi.org   # for library 
+
+
+Major uses 
+Embedded scripting
+Image processing
+scientific and Numeric programming
+Database programming 
+System utilities
+GUI 
+Internet scripting
+
+Python is having 160000 Libraries  
+
+
+Current version 3.7.2
+
+Python 2 not changing code
+
+Spyder is IDE integrated development environment s/w 
+
+Run F5
+
+
+comments in python:
+single line comment #
+multi line comments
+
+all the lines that are defined in between ''' and ''' are commnet
+
+example 
+
+'''
+the bellow
+lines are 
+commented
+'''
+
+OR you can select code right click and 
+
+
+* Everything in Python is objects
+number:
+number can be integer or decimal or octal or hexa
+val=10
+fval=23.2
+
+string:
+string is sequence of characters
+string can be define in single/double/triple quotes
+
+aname = 'pything string'
+ 
+list:
+List (arry in C)
+- list is sent of values / elements
+- elements can be set of numbers or set of strings or combination
+- list elements are defined in []
+
+alist=[10.20,30,40]
+blist=["unix", "scala","spark","hadoop"]
+clist=[10,20,"unix",scala",4000,34.33]
+
+ , tuple, 
+ tuple is set of elements
+ - elements can be of anything
+ - tuple use ()
+ - elements inside tuple can not be modified 
+ 
+ dictionary:
+ -----------
+ - contains elements in the form of keys and values
+ - elements are defined in {}
+ - keys are always unique
+ 
+ syntax : dictname= {key:value, key:value, key:value}
+  example: book={"chap1":10,"chap2":20,"chap3":30}
+data = {10:20,30:40,50:60}
+
+Set
+---------------
+set is group of elements
+set elements are defined in {}
+indexing is not permitted for set
+
+
+how to get built in function and exceptions 
+in the interactive prompt
+
+die(__builtins__)  # it displays all built in exceptions and functions 
+
+===================
+statements in Python
+--------------------
+conditional statements
+------------
+if condition:
+	level2
+	level2
+	
+===============
+Operators 
+
+Arithmetic operators 
++ - * % /
+
+Assignment operators 
+
+=	val=10
++=	 val+=10
+-=   val-=10
+*=   val*=10
+
+
+logical operaters
+
+and
+or
+not
+
+if len(name) <10 and len(name) > 5:
+
+Relational operatoes 
+==
+<
+<=
+>
+>=
+!=
+
+special operators 
+in 
+as
+	
